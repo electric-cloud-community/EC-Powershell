@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta name="generator" content=
+  "HTML Tidy for Windows (vers 25 March 2009), see www.w3.org" />
+  <meta content="text/html; charset=us-ascii" http-equiv=
+  "content-type" />
+
+  <title>ElectricFlow Plugin for PowerShell</title>
+  <link rel="stylesheet" href=
+  "../../plugins/@PLUGIN_KEY@/pluginhelp.css" type="text/css"
+  media="screen" />
+</head>
+
+<body>
+  <div class="help">
+    <h1>PowerShell</h1>
+
+    <p>Plugin Version @PLUGIN_VERSION@</p>
+    <hr style=
+    "margin-left: -10px; margin-top: 10px; height: 1px; width: 100%; color: #5981BD;"
+    noshade="noshade" />
+
+	<p>July 1, 2015</p>
+
+    <p>Windows PowerShell consists of a command-line shell and
+    associated scripting language built on top of, and integrated
+    with, the .NET Framework.<br />
+    PowerShell provides full access to COM and WMI, enabling
+    administrators to perform administrative tasks on both local
+    and remote Windows systems.</p>
+
+    <h2>PowerShell Links</h2>
+
+    <p>More information can be found at <a href=
+    "http://technet.microsoft.com/en-us/scriptcenter/powershell.aspx">
+    this website</a>.</p>
+
+    <h2>ElectricFlow Integration to PowerShell</h2>
+
+    <p>The EC-PowerShell plugin allows you to run any PowerShell
+    script by writing it directly in the script area provided, or
+    provide the path to any PowerShell file.<br />
+    The plugin also allows you to review the log that contains
+    output and errors resulting from execution.<br />
+    <b>Note:</b>In order to execute PowerShell scripts, the
+    execution policy property value must be set to unrestricted. To
+    check if it is unrestricted, open the Windows command line and
+    type <b>powershell.exe get-ExecutionPolicy</b>.<br />
+    To change the executionPolicy property to unrestricted, type
+    <b>powershell.exe set-ExecutionPolicy Unrestricted</b> on the
+    command line.<br />
+    Make sure that the PowerShell installation directory is set in
+    the path environment variable.</p>
+
+    <h2>Integrated Version</h2>
+
+    <p>This plugin was developed and tested against version 2.0</p>
+
+    <h1>Plugin Procedures</h1>
+
+    <p>IMPORTANT: For all parameter descriptions below, required
+    parameters are shown in <span class='required'>bold
+    italics</span>.</p>
+
+    <div id="runPowerShell"><a name='runPowerShell' id=
+    "runPowerShell"></a>
+
+    <h3>runPowerShell</h3>
+
+    <p>This procedure allows you to execute PowerShell scripts from
+    a textarea or a .ps1 file and shows the result in a log
+    file.</p>
+
+    <table class="grid">
+      <thead>
+        <tr>
+          <th>Parameter</th>
+
+          <th>Description</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Path to a powershell file</td>
+
+          <td>Provide an absolute path to a powershell script file
+          (.ps1).</td>
+        </tr>
+
+        <tr>
+          <td>Command</td>
+
+          <td>Enter powershell commands directly.</td>
+        </tr>
+      </tbody>
+    </table><img src=
+    "../../plugins/@PLUGIN_KEY@/images/PowerShell-1.png" alt=
+    "Form" /></div>
+
+    <h1>Examples and Use Cases</h1>
+
+    <p>There are two ways to use this plugin to create PowerShell
+    based steps. The first one is to write the PowerShell script in
+    the text area field and the other one is to execute a single
+    PowerShell file (.ps1).<br />
+    Examples:</p>
+
+    <h2>Execute a PowerShell file</h2><img src=
+    "../../plugins/@PLUGIN_KEY@/images/PowerShell-1.png" alt=
+    "File" />
+
+    <h2>Result</h2><img src=
+    "../../plugins/@PLUGIN_KEY@/images/PowerShell-2.png" alt=
+    "Results-1" />
+
+    <h2>Execute PowerShell from textarea</h2><img src=
+    "../../plugins/@PLUGIN_KEY@/images/PowerShell-3.png" alt=
+    "TextArea" />
+
+    <h2>Result</h2><img src=
+    "../../plugins/@PLUGIN_KEY@/images/PowerShell-2.png" alt=
+    "Results-1" />
+
+    <h1>Release Notes</h1>
+	
+	 <h2>@PLUGIN_KEY@-2.0.4</h2>
+
+    <ul>
+        <li>Renamed ElectricCommander to ElectricFlow.</li>
+    </ul>
+
+    <h2>@PLUGIN_KEY@-2.0.3</h2>
+
+    <ul>
+        <li>Override temp .ps file after execution.</li>
+    </ul>
+    
+    <h2>@PLUGIN_KEY@-2.0.2</h2>
+
+    <ul>
+        <li>Procedure name(s) were changed in the step picker section</li>
+    </ul>
+    
+    <h2>@PLUGIN_KEY@-2.0.1</h2>
+    
+    <ul>
+      <li>Change Help page style.</li>
+    </ul>
+
+    <h2>@PLUGIN_KEY@-2.0.0</h2>
+
+    <ul>
+      <li>Added the "PowerShell File" parameter.</li>
+
+      <li>XML Parameter panel.</li>
+
+      <li>Help page was changed.</li>
+    </ul>
+  </div>
+</body>
+</html>

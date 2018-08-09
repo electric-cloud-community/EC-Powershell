@@ -1,0 +1,17 @@
+<editor>
+    <help>/commander/pages/@PLUGIN_NAME@/@PLUGIN_KEY@_help?s=Administration&amp;ss=Plugins#runPowerShell</help>
+    <formElement>
+        <type>entry</type>
+        <label>Path to a powershell file:</label>
+        <property>powershellFile</property>
+        <documentation>Provide an absolute path to a powershell script file (.ps1).</documentation>
+        <required>0</required>
+    </formElement>
+    <formElement>
+        <type>textarea</type>
+        <label>Command:</label>
+        <property>powershellCommand</property>
+        <documentation>Enter powershell commands directly.</documentation>
+        <required>0</required>
+    </formElement>
+</editor>
