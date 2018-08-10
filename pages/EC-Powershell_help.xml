@@ -126,8 +126,14 @@
     "Results-1" />
 
     <h1>Release Notes</h1>
-	
-	 <h2>@PLUGIN_KEY@-2.0.4</h2>
+
+    <h2>@PLUGIN_KEY@-2.1.0</h2>
+
+    <ul>
+        <li>Added "runPowerShellBroadcast" procedure with enabled broadcasting.</li>
+    </ul>
+
+    <h2>@PLUGIN_KEY@-2.0.4</h2>
 
     <ul>
         <li>Renamed ElectricCommander to ElectricFlow.</li>
