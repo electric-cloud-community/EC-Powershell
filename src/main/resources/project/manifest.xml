@@ -9,6 +9,10 @@
     <xpath>//procedure[procedureName=&quot;runPowerShell&quot;]/propertySheet/property[propertyName=&quot;ec_parameterForm&quot;]/value</xpath>
   </file>
   <file>
+    <path>forms/runPowerShell.xml</path>
+    <xpath>//procedure[procedureName=&quot;runPowerShellBroadcast&quot;]/propertySheet/property[propertyName=&quot;ec_parameterForm&quot;]/value</xpath>
+  </file>
+  <file>
     <path>ec_setup.pl</path>
     <xpath>//property[propertyName=&quot;ec_setup&quot;]/value</xpath>
   </file>
