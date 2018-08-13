@@ -101,6 +101,33 @@
     "../../plugins/@PLUGIN_KEY@/images/PowerShell-1.png" alt=
     "Form" /></div>
 
+    <div id="runPowerShellBroadcast">
+      <a name='runPowerShellBroadcast' id="runPowerShellBroadcast"></a>
+      <h3>runPowerShellBroadcast</h3>
+
+      <p>Same as procedure "runPowerShell" but with broadcast to a pool of resources.<p>
+      </p>NOTE: All resources in pool should have <b>shared workspace</b> between each other.</p>
+
+      <table class="grid">
+        <thead>
+          <tr>
+            <th>Parameter</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Path to a powershell file</td>
+            <td>Provide an absolute path to a powershell script file (.ps1).</td>
+          </tr>
+          <tr>
+            <td>Command</td>
+            <td>Enter powershell commands directly.</td>
+          </tr>
+        </tbody>
+      </table><img src="../../plugins/@PLUGIN_KEY@/images/PowerShell-1.png" alt="Form" />
+    </div>
+
     <h1>Examples and Use Cases</h1>
 
     <p>There are two ways to use this plugin to create PowerShell
