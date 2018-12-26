@@ -13,13 +13,13 @@ buildscript {
 		jcenter()
 	}
 	dependencies {
-		classpath group: 'com.electriccloud.plugins', name: 'flow-gradle-plugin', version: '1.+'
+		classpath group: 'com.electriccloud.plugins', name: 'flow-gradle-plugin', version: '2.1'
 	}
 }
 
 group = 'com.electriccloud'
 description = 'Plugins : EC-Powershell'
-version = '2.1.0'
+version = '2.1.1'
 
 apply plugin: 'flow-gradle-plugin'
 apply plugin: 'license'
