@@ -8,7 +8,7 @@
   <meta content="text/html; charset=us-ascii" http-equiv=
   "content-type" />
 
-  <title>ElectricFlow Plugin for PowerShell</title>
+  <title>CloudBees Flow Plugin for PowerShell</title>
   <link rel="stylesheet" href=
   "../../plugins/@PLUGIN_KEY@/pluginhelp.css" type="text/css"
   media="screen" />
@@ -23,7 +23,7 @@
     "margin-left: -10px; margin-top: 10px; height: 1px; width: 100%; color: #5981BD;"
     noshade="noshade" />
 
-	<p>December 25, 2018</p>
+    <p>Revised on May 23, 2019</p>
 
     <p>Windows PowerShell consists of a command-line shell and
     associated scripting language built on top of, and integrated
@@ -38,7 +38,7 @@
     "http://technet.microsoft.com/en-us/scriptcenter/powershell.aspx">
     this website</a>.</p>
 
-    <h2>ElectricFlow Integration to PowerShell</h2>
+    <h2>CloudBees Flow Integration to PowerShell</h2>
 
     <p>The EC-PowerShell plugin allows you to run any PowerShell
     script by writing it directly in the script area provided, or
@@ -154,6 +154,10 @@
 
     <h1>Release Notes</h1>
 
+    <h2 id="2.1.2">@PLUGIN_KEY@ 2.1.2</h2>
+    <p>Renaming from "Electric Cloud" to "CloudBees"</p>
+
+
     <h2>@PLUGIN_KEY@-2.1.1</h2>
 
     <ul>
@@ -177,15 +181,15 @@
     <ul>
         <li>Override temp .ps file after execution.</li>
     </ul>
-    
+
     <h2>@PLUGIN_KEY@-2.0.2</h2>
 
     <ul>
         <li>Procedure name(s) were changed in the step picker section</li>
     </ul>
-    
+
     <h2>@PLUGIN_KEY@-2.0.1</h2>
-    
+
     <ul>
       <li>Change Help page style.</li>
     </ul>
