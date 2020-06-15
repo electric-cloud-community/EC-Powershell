@@ -8,7 +8,7 @@
   <meta content="text/html; charset=us-ascii" http-equiv=
   "content-type" />
 
-  <title>CloudBees Flow Plugin for PowerShell</title>
+  <title>CloudBees CD Plugin for PowerShell</title>
   <link rel="stylesheet" href=
   "../../plugins/@PLUGIN_KEY@/pluginhelp.css" type="text/css"
   media="screen" />
@@ -23,7 +23,7 @@
     "margin-left: -10px; margin-top: 10px; height: 1px; width: 100%; color: #5981BD;"
     noshade="noshade" />
 
-    <p>Revised on May 23, 2019</p>
+    <p>Revised on June 15, 2020</p>
 
     <p>Windows PowerShell consists of a command-line shell and
     associated scripting language built on top of, and integrated
@@ -38,7 +38,7 @@
     "http://technet.microsoft.com/en-us/scriptcenter/powershell.aspx">
     this website</a>.</p>
 
-    <h2>CloudBees Flow Integration to PowerShell</h2>
+    <h2>CloudBees CD Integration to PowerShell</h2>
 
     <p>The EC-PowerShell plugin allows you to run any PowerShell
     script by writing it directly in the script area provided, or
@@ -153,6 +153,11 @@
     "Results-1" />
 
     <h1>Release Notes</h1>
+
+    <h2>@PLUGIN_KEY@ 2.1.3</h2>
+    <ul>
+        <li>Renaming from "CloudBees Flow" to "CloudBees CD".</li>
+    </ul>
 
     <h2 id="2.1.2">@PLUGIN_KEY@ 2.1.2</h2>
     <p>Renaming from "Electric Cloud" to "CloudBees"</p>
