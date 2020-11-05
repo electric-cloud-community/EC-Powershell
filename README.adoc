@@ -1,0 +1,106 @@
+== PowerShell
+
+Revised on June 15, 2020
+
+Windows PowerShell consists of a command-line shell and associated scripting language built on top of, and integrated with, the .NET Framework.
+
+PowerShell provides full access to COM and WMI, enabling administrators to perform administrative tasks on both local and remote Windows systems.
+
+== PowerShell links
+
+More information can be found at http://technet.microsoft.com/en-us/scriptcenter/powershell.aspx[this website].
+
+== CloudBees CD integration to PowerShell
+
+The EC-PowerShell plugin allows you to run any PowerShell script by writing it directly in the script area provided, or provide the path to any PowerShell file.
+
+The plugin also allows you to review the log that contains output and errors resulting from execution.
+
+**Note:**In order to execute PowerShell scripts, the execution policy property value must be set to unrestricted. To check if it is unrestricted, open the Windows command line and type *powershell.exe get-ExecutionPolicy*.
+
+To change the executionPolicy property to unrestricted, type *powershell.exe set-ExecutionPolicy Unrestricted* on the command line.
+
+Make sure that the PowerShell installation directory is set in the path environment variable.
+
+== Integrated version
+
+This plugin was developed and tested against version 2.0
+
+== Plugin procedures
+
+IMPORTANT: For all parameter descriptions below, required parameters are shown in [.required]#bold italics#.
+
+[[runPowerShell]]
+
+
+== RunPowerShell
+
+This procedure allows you to execute PowerShell scripts from a textarea or a .ps1 file and shows the result in a log file.
+
+[cols=",",options="header",]
+|===
+|Parameter |Description
+|Path to a powershell file |Provide an absolute path to a powershell script file (.ps1).
+|Command |Enter powershell commands directly.
+|===
+
+
+[[runPowerShellBroadcast]]
+
+
+== RunPowerShellBroadcast
+
+Same as procedure "runPowerShell" but with broadcast to a pool of resources.
+
+NOTE: All resources in pool should have *shared workspace* between each other.
+
+[cols=",",options="header",]
+|===
+|Parameter |Description
+|Path to a powershell file |Provide an absolute path to a powershell script file (.ps1).
+|Command |Enter powershell commands directly.
+|===
+
+
+
+
+== Release notes
+
+=== EC-Powershell 2.1.3
+
+* Renaming from "CloudBees Flow" to CloudBees CD.
+
+
+=== EC-Powershell 2.1.2
+
+Renaming from "Electric Cloud" to "CloudBees"
+
+=== EC-Powershell 2.1.1
+
+* The plugin icon has been updated.
+
+=== EC-Powershell 2.1.0
+
+* Added "runPowerShellBroadcast" procedure with enabled broadcasting.
+
+=== EC-Powershell 2.0.4
+
+* Renamed ElectricCommander to ElectricFlow.
+
+=== EC-Powershell 2.0.3
+
+* Override temp .ps file after execution.
+
+=== EC-Powershell 2.0.2
+
+* Procedure name(s) were changed in the step picker section
+
+=== EC-Powershell 2.0.1
+
+* Change Help page style.
+
+=== EC-Powershell 2.0.0
+
+* Added the "PowerShell File" parameter.
+* XML Parameter panel.
+* Help page was changed.

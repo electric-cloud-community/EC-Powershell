@@ -1,5 +1,5 @@
 <editor>
-    <help>/commander/pages/@PLUGIN_NAME@/@PLUGIN_KEY@_help?s=Administration&amp;ss=Plugins#runPowerShell</help>
+    <help>https://docs.cloudbees.com/docs/cloudbees-cd/latest/plugins/ec-powershell#runPowerShell</help>
     <formElement>
         <type>entry</type>
         <label>Path to a powershell file:</label>
